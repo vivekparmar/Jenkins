@@ -1,6 +1,6 @@
 require_relative "test_helper.rb"
 require "test/unit"
-require_relative "../src/RubySDK_HelloWorld_plugin.rb"
+require_relative "../src/Jenkins.rb"
 
 class TestRubySDKHelloWorldApp < Test::Unit::TestCase
 
