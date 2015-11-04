@@ -3,7 +3,7 @@ require "rubygems"
 require "cloudmunch_sdk"
 require "date"
 
-class jenkins < AppAbstract
+class Jenkins < AppAbstract
 
     def initializeApp()
         json_input = getJSONArgs()
@@ -52,12 +52,12 @@ class jenkins < AppAbstract
     end 
 
     def cleanupApp()
-        log("info", "cleanupApp is invoked in RubySDK_HelloWorld_plugin App")
+        log("info", "cleanupApp is invoked in Jenkins App")
         logClose()
     end
 
 
 end
 
-jenkins = jenkins.new()
+jenkins = Jenkins.new()
 jenkins.start()
