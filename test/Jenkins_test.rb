@@ -5,7 +5,7 @@ require_relative "../src/Jenkins.rb"
 class TestRubySDKJenkinsApp < Test::Unit::TestCase
 
     def test_jenkinsapp
-        jenkins.new(ARGV)
+        Jenkins.new(ARGV)
     end
 
 end
