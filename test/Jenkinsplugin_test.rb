@@ -2,10 +2,10 @@ require_relative "test_helper.rb"
 require "test/unit"
 require_relative "../src/Jenkins.rb"
 
-class TestRubySDKHelloWorldApp < Test::Unit::TestCase
+class TestRubySDKJenkinsApp < Test::Unit::TestCase
 
-    def test_helloworldapp
-        RubySDKHelloWorldPluginApp.new(ARGV)
+    def test_jenkinsapp
+        jenkins.new(ARGV)
     end
 
 end
