@@ -102,7 +102,7 @@
   "id": "Jenkins",
   "name": "Jenkins_plugin",
   "build_dependencies":["bundler install"],
-  "test_dependencies":["vendor/bin/ruby test/Jenkins_test.rb"],
+  "test_dependencies":["vendor/bin/ruby test/Jenkinsplugin_test.rb"],
   "deploy_dependencies":["bundler install"],
   "plugin_version":"v1.0",
   "plugin_category":"Insight"
